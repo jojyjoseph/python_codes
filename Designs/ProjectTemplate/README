@@ -1,0 +1,24 @@
+README for the overall project template
+
+
+PROJECT STRUCTURE
+-----------------------------------------------------
+
+1. 'main.py' is the entry point
+2. 'config' holds the configuration of projects. This may be global variables of the whole project
+3. 'pkg' hold different packages. Also contains the helper packages which provides some basic functions like logging etc. Other packages based on needs of the project can be created.
+4. 'testing' holds (i) test.py which is the testfunction. (ii) tv.py which holds the test related variables. For e.g. it can holds booleans which decides which all tests need to be performed. (iii) Other folders can be created based on the associated testing.
+
+
+HOW TO GO ABOUT
+-----------------------------------------------------
+* main.py is the entry point.
+* gv.__testing__ decides whether the project runs in testing or main mode.
+* booleans in testing/tv.py decides which all tests need to be performed.
+
+
+NICHE FEATURES
+------------------------------------------------------
+
+1. Support for logging
+2. Project architecture well structured by providing different space for projects, packages, testing and configurations.
